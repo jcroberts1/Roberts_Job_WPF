@@ -1,7 +1,11 @@
-// JavaScript
+//JavaScript
+// Name: Job Roberts
+//WPF 1410 Section 01
+// Date: 06 Oct 2014
+//Assignment:Expressions
 
-var age = 34; //Number variable
+var =
 
-var isStudent = false; //Boolean Variable
+var  =
 
-var firstName = "Brandon";
+var  =

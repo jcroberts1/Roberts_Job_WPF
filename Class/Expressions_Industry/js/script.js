@@ -16,4 +16,4 @@ var currentYear = 2014;
 var age = currentYear - yearBorn;
 
 alert (name+" you are "+age+" years old");
-console.log(yearBo
+console.log(yearBorn);

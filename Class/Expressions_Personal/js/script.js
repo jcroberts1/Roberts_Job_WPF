@@ -8,7 +8,12 @@
 */
 //alert("Testing 1,2,3");
 var name = prompt("Type your name");
-alert("Welcome"  + name +"! Let's figure out how old you are");
+alert("Welcome  "+name+"! Let's figure out how old you are");
 var yearBorn = prompt("What year were you born");
 
+var currentYear = 2014;
+
+var age = currentYear - yearBorn;
+
+alert (name+" you are "+age+" years old");
 console.log(yearBorn);

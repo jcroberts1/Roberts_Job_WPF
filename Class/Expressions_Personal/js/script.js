@@ -6,4 +6,9 @@
 //Assignment:Expressions
 // How much to feed your dog or puppy.
 */
-alert("Testing 1,2,3");
+//alert("Testing 1,2,3");
+var name = prompt("Type your name");
+alert("Welcome"  + name +"! Let's figure out how old you are");
+var yearBorn = prompt("What year were you born");
+
+console.log(yearBorn);

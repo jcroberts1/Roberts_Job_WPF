@@ -8,9 +8,18 @@
  */
 //
 
+// Ask the user his or her name
+var name = prompt("Enter Your name");
+
+// welcome message
+var welcome = ("What you need to create a website");
+
+// Welcome greeting to the user
+alert("Hi  "+name+"! Let's create a website");
+
+
 
 //New Array added
 var webTools =["Laptop", "Software", "Hosting", "domainName" , "creativity" ,"Imagination"];//0,1,2,3,4,5
 
-// welcome message 
-var welcome = ("What you need to create a website");
+

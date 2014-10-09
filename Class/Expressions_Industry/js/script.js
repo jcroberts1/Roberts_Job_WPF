@@ -10,7 +10,7 @@
 
 
 //New Array added
-var webTools =["Laptop","Software", "Hosting", "domainName"];//(0,1,2,3)
+var webTools =["Laptop", "Software", "Hosting", "domainName"];//0,1,2,3
 
 
 var tools =[0];

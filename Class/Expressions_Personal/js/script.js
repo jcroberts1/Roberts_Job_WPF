@@ -9,6 +9,8 @@
 // Ask the user his or her name
 var name = prompt("Enter Your name");
 
+// Welcome greeting to the user
+alert("Welcome  "+name+"! Let's find out how long to pay of a debt");
 
 
 

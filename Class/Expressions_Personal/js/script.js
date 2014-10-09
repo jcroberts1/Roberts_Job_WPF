@@ -16,3 +16,7 @@ alert("Welcome  "+name+"! Let's find out how long to pay of a debt");
 var balanceDue = prompt("Enter you current Balance on bill");
 console.log(balanceDue);//console.log response
 
+//Prompt to gather monthly payments
+var currentPayments = prompt("What is your monthly payment");
+console.log(currentPayments);//console.log response
+

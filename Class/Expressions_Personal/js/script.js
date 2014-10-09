@@ -6,23 +6,29 @@
 //Assignment:Expressions
 // How much to feed your dog or puppy.
 */
-//alert("Testing 1,2,3");
-var name = prompt("Type your name");
-alert("Welcome  "+name+"! Let's figure out how old you are");
-var yearBorn = prompt("What year were you born");
+// Ask the user his or her name
+var name = prompt("Enter Your name");
 
-var currentYear = 2014;
+// greeting to the user
+alert("Welcome  "+name+"! Let's find out how long to pay of a debt");
 
-var age = currentYear - yearBorn;
+// First prompt for the user
+var balanceDue = prompt("Enter you current Balance on bill");
+console.log(balanceDue);
 
-alert (name+" you are "+age+" years old");
-console.log(yearBorn);
+//lets gather monthly payments
+var currentPayments = prompt("What is your monthly payment");
+console.log(currentPayments);
 
-var yearsMore = prompt ("How many years in future would you like to know");
-console.log("yearsMore");
+//Calculate the payoff
+var total = balanceDue / currentPayments ;
+console.log(total);//console.log
 
-var futureAge = age + Number(yearsMore);
-console.log(futureAge);
+var
+console.log("You will pay off " +balanceDue+" in "+total+" Months.");
 
-console.log("You will be  "+futureAge+" in "+ yearsMore +" years.");
-alert("You will be  "+futureAge+" in "+ yearsMore +" years.");
+
+
+
+
+

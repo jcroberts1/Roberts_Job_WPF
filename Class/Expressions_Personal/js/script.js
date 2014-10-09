@@ -8,10 +8,8 @@
 */
 // Ask the user his or her name
 var name = prompt("Enter Your name");
-
 // greeting to the user
 alert("Welcome  "+name+"! Let's find out how long to pay of a debt");
-
 // First prompt for the user
 var balanceDue = prompt("Enter you current Balance on bill");
 console.log(balanceDue);
@@ -24,9 +22,9 @@ console.log(currentPayments);
 var total = balanceDue / currentPayments ;
 console.log(total);//console.log
 
-var
+//Calculate pay off months
 console.log("You will pay off " +balanceDue+" in "+total+" Months.");
-
+alert("You will pay off " +balanceDue+" in "+total+" Months.");
 
 
 

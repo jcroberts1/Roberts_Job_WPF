@@ -10,8 +10,7 @@
 
 
 //New Array added
-var webTools =["Laptop", "Software", "Hosting", "domainName"];//0,1,2,3
+var webTools =["Laptop", "Software", "Hosting", "domainName" , "creativity" ,"Imagination"];//0,1,2,3,4,5
 
-
-var tools =[0];
-console.log(tools);
+// welcome message 
+var welcome = ("What you need to create a website");

@@ -20,3 +20,7 @@ console.log(balanceDue);//console.log response
 var currentPayments = prompt("What is your monthly payment");
 console.log(currentPayments);//console.log response
 
+
+//Calculate the payoff
+var total = balanceDue / currentPayments ;
+console.log(total);//console.log response

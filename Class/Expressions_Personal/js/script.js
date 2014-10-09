@@ -24,3 +24,9 @@ console.log(currentPayments);//console.log response
 //Calculate the payoff
 var total = balanceDue / currentPayments ;
 console.log(total);//console.log response
+
+
+//Calculate pay off months
+console.log("You will pay off " +balanceDue+" in "+total+" Months.");
+alert("You will pay off " +balanceDue+" in "+total+" Months.");
+// console.log should match alert box

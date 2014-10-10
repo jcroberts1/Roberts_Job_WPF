@@ -17,16 +17,13 @@ var milesTraveled = prompt("Enter your miles");
 console.log(milesTraveled);//console.log response
 
 //Prompt to gather gallons of gas
-var currentPayments = prompt("What is your monthly payment");
-console.log(currentPayments);//console.log response
+var gasTank = prompt("How many gallons to refile tank?");
+console.log(gasTank);//console.log response
 
 
-//Calculate the payoff
-var total = balanceDue / currentPayments ;
-console.log(total);//console.log response
+//Calculate Miles per gallon
+var gasMileage = milesTraveled / gasTank ;
+console.log(gasMileage);//console.log response
 
 
-//Calculate pay off months
-console.log("You will pay off " +balanceDue+" in "+total+" Months.");
-alert("You will pay off " +balanceDue+" in "+total+" Months.");
-// console.log should match alert box
+

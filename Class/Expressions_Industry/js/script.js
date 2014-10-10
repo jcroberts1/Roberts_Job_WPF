@@ -38,6 +38,11 @@ console.log(length);//console.log response
 var width = prompt("Enter width of tire");
 console.log(width);//console.log response
 
+var tire = prompt("Enter in Tire preasure in pounds");
+
+//Calculate the weight
+var weight = length * width * tire ;
+console.log(weight);//console.log response
 
 
 
@@ -45,16 +50,6 @@ console.log(width);//console.log response
 
 
 
-
-//Calculate the payoff
-var total = balanceDue / currentPayments ;
-console.log(total);//console.log response
-
-
-//Calculate pay off months
-console.log("You will pay off " +balanceDue+" in "+total+" Months.");
-alert("You will pay off " +balanceDue+" in "+total+" Months.");
-// console.log should match alert box
 
 
 

@@ -10,13 +10,13 @@
 var name = prompt("Enter Your name");
 
 // Welcome greeting to the user
-alert("Welcome  "+name+"! Let's find out how long to pay of a debt");
+alert("Welcome  "+name+"! Let's find out your vehicle gas mileage");
 
 // First prompt for the user
-var balanceDue = prompt("Enter you current Balance on bill");
-console.log(balanceDue);//console.log response
+var milesTraveled = prompt("Enter your miles");
+console.log(milesTraveled);//console.log response
 
-//Prompt to gather monthly payments
+//Prompt to gather gallons of gas
 var currentPayments = prompt("What is your monthly payment");
 console.log(currentPayments);//console.log response
 

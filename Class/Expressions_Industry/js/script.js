@@ -19,13 +19,25 @@ alert("You will need thin cardboard,ruler,& tire gage in PSI(pound per square in
 
 alert("Get a footprint of tire on cardboard to measure length and width");
 //instructions to get length and width
+
+alert("Shove the cardboard under the tire in all four directions");
+
+alert("Roll the car off from the cardboard and measure the area bounded by the cardboard. Take measurements in inches.");
+
+alert(" Use a tire gauge to measure the internal air pressure of the tire.");
+
+alert("Find the amount of tire surface area touching the ground. To find this, multiply the length and width of the footprint.Your answer should be in square inches.");
+
+alert("To find the amount of weight the tire holds, multiply the surface area by the psi in that tire.When you multiply square inches by pounds per square inch the square inches cancel and you're left with pounds.");
+
 // First prompt for the user
-var length = prompt("Enter length of tire");
+var length = prompt("Enter length ");
 console.log(length);//console.log response
 
 //Prompt
 var width = prompt("Enter width of tire");
 console.log(width);//console.log response
+
 
 
 

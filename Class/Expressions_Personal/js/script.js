@@ -4,7 +4,7 @@
 //WPF 1410 Section 01
 // Date: 06 Oct 2014
 //Assignment:Expressions
-// How much to feed your dog or puppy.
+// Pay off a debt.
 */
 // Ask the user his or her name
 var name = prompt("Enter Your name");

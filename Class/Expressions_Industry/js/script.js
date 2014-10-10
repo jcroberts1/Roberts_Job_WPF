@@ -38,11 +38,18 @@ console.log(length);//console.log response
 var width = prompt("Enter width of tire");
 console.log(width);//console.log response
 
-var tire = prompt("Enter in Tire preasure in pounds");
-
 //Calculate the weight
-var weight = length * width * tire ;
+var weight = length * width ;
 console.log(weight);//console.log response
+
+var tire = prompt("Enter in Tire preasure in pounds");
+console.log(tire);//console.log response
+
+var totalWeight = weight * tire  ;
+console.log(totalWeight);//console.log response
+
+alert("Add the weight together for all four tires - that's the total weight of the car");
+
 
 
 

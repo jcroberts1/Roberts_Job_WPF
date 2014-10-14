@@ -2,8 +2,8 @@
      //JavaScript
      // Name: Job Roberts
      //WPF 1410 Section 01
-     // Date: 12 Oct 2014
-     //Assignment:Conditionals_worksheet
+     // Date: 14 Oct 2014
+     //Assignment:Conditionals_Personal
      */
 
 var miles = 200;

@@ -5,28 +5,34 @@
      // Date: 14 Oct 2014
      //Assignment:Conditionals_Personal
      */
+    //
 
-var miles = 200;
 
-var mpg = prompt("Enter Miles per gallon");
-    console.log(mpg);
+   var currentWeather =(sunny);
 
-var gasReading = prompt("Gauge reading of the gas tank");
-    console.log(gasReading);
+   var currentTemp = (72);
 
-var capacity = prompt("Enter gas tank capacity");
-    console.log(capacity);
+   var weather= prompt("What are the weather conditions?");
+    alert = ("Looks like it is "+weather+" what vehicle should I take?")
+  console.log(weather);
 
-var total = miles / gasReading;
+    var temp = prompt("What is temp outside?");
+    alert = ("Seems to be nice "+weather+" weather.");
+   console.log(temp);
 
-var  gasStation = 200;
 
-  if(gasStation){
-      console.log("Yes,you can make it with out stopping for gas!")
+    if (temp > 72) {
 
-  }else{
-      console.log("You only have "+gasReading+" percent left, better stop for gas.");
+        home = "To cold, I am staying home";
+
+    } else {
+
+        car = "Great weather";
+
+    else
+        if (72 > weather) {
+        }
+        car = "Let's take car";
 
     }
-
 

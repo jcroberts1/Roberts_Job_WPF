@@ -74,5 +74,5 @@ if (name === ""){
 
 }
 
-console.log("Hi " + name + " you have " + numSoda + "sodas in your soda machine!");
+console.log("Hi " + name + " you have " + numSoda + " sodas in your soda machine!");
 alert("Hi " + name + " you have " + numSoda + " sodas in your soda machine!");

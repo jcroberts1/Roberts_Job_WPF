@@ -8,39 +8,39 @@
  */
 //
 
-var minRes = 300;
-var photo = 500;
-var fileSize =  900;
+var minRes = 200;
+var maxRes = 300;
 
 // condition if your photo is to small resolution you can not print , how ever if your resolution is high enough you can print!
 
-if (minRes < photo) {
-    console.log("You can not print the photo");
-} else {
-    console.log("You can print the photo!");
-}
+var name = prompt("What is your name?");
 
-// 
-var size = prompt("What is your photo resolution?");
+if (name === "") {
+
+    name = prompt("Oops!! you forgot your name");
+
+    alert("Hi " + name + " let's see if your photo is large enough to print");
+    console.log("Hi" + name + " let's see if your photo is large enough to print");
+
+    var size = prompt("What is your photo resolution?");
     console.log(size);
 
 
 // validation of the prompt
+    if (size === "") {
 
-if (size === ""){
+        size = prompt("Enter your photo resolution.");
 
-    size = prompt("Enter your photo resolution.");
+    }
 
+    if (minRes >= maxRes) {
+        console.log("You can print the photo.");
+
+    } else {
+        //code performed if false
+        console.log("You can not print the photo.");
+
+    }
 
 }
 
-if(size < minRes){
-    console.log("You can not print the photo.");
-}else{
-    console.log("You can print the photo.");
-
-
-}
-
-console.log("This " + minRes < size  + " resolution is large enough to print");
-alert("This " + minRes < size  + " resolution is large enough to print");

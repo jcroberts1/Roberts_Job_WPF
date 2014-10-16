@@ -8,6 +8,11 @@
  */
 //
 
-var pixels = 50;
+var minRes = 300;
+var photo= 500;
 
-// if pixels is under the min you can not print.
+if (minRes < photo) {
+    console.log("You can print the photo!");
+} else {
+    console.log("You can not print the photo!");
+}

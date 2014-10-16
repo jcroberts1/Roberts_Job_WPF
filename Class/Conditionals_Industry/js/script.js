@@ -8,6 +8,6 @@
  */
 //
 
-var gpa = 48;
+var pixels = 50;
 
-// if gpa is over the min 2.0 score .
+// if pixels is under the min you can not print.

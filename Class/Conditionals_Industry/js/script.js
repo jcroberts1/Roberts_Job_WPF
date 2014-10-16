@@ -15,6 +15,7 @@ var maxRes = 300;
 
 var name = prompt("What is your name?");
 
+// validation of the prompt
 if (name === "") {
 
     name = prompt("Oops!! you forgot your name");

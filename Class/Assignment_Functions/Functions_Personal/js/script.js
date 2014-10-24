@@ -1,3 +1,8 @@
-/**
- * Created by jobroberts on 10/24/14.
+/*
+ //JavaScript
+ // Name: Job Roberts
+ //WPF 1410 Section 01
+ // Date: 23 Oct 2014
+ //Assignment:Functions.
  */
+

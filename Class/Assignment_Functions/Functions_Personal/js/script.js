@@ -19,11 +19,12 @@ if (name === ""){
     name = prompt("You forgot to enter your name");
 }
 //alert the user of info
-alert= prompt("Thank you for learning code "+ name +"");
-
+alert= prompt("Thank you for learning code "+ name +" say you are welcome");
+console.log("Thank you for learning code "+ name +" say you are welcome");
 var an1 = ["you are welcome", "thank you"];
 
 
 if (an1)
 
    document.write("Look at this");
+   console.log("Look at this");

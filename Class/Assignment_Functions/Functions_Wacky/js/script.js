@@ -22,7 +22,7 @@ function greet(name) {
 alert =prompt("Hi "+name+" please enter an number");
 console.log(alert);
 
-//for loop 
+//for loop
 for (var i =20 ; i > 0; i--){
     console.log(i + 'dogs in the yard')
 
